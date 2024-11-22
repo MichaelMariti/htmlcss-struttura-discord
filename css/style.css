@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* nav menu */
+.nav-menu {
+    height: 50px;
+    background-color: #ADD8E7;
+    padding: 20px auto;
+}
+
+.nav-flex {
+    display: flex;
+    gap: 20px;
+    /* DEBUG */
+    height: 40px;
+    background-color: #DAA51C;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.logo {
+    border: 3px solid black;
+}
+
+.login {    
+    border: 3px solid black;
+}
+
+ul li {
+    list-style: none;
+}
