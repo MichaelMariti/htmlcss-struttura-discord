@@ -6,13 +6,6 @@
 
 
 /* nav menu */
-/* .nav-menu-back {
-    background-color: #ADD8E7;
-    padding: 30px auto;
-    min-height: 30%;
-} */
-
-
 .nav-flex-container {
     display: flex;
     padding: 20px 0;
@@ -23,24 +16,30 @@
     background-color: #ADD8E7;    
 }
 
-.prova-container {
+.nav-container {
     padding: 10px;
     display: flex;
-    background-color: green;
-    justify-content: space-around;
+    background-color: #DAA51C;
+    justify-content: space-between;
+    width: 1000px;
 }
 
 .nav-link {
     display: flex;
     gap: 10px;
+    width: auto;
 }
 
 .logo {
-    border: 3px solid black;
+    border: 3px black dashed;
+    width: 33%;
 }
 
 .login {    
-    border: 3px solid black;
+    border: 3px black dashed;
+    width: 33%;
+    align-self: flex-end;
+    
 }
 
 ul li {
@@ -63,27 +62,98 @@ ul li {
     height: 500px;
     width: 900px;
     background-color: pink;
-    border: 3px solid black;
+    border: 3px black dashed;
 }
 
 
 
 /* main */
-.sec1-flex {
+
+/* Three main sections */
+.sec-flex {
     display: flex;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    justify-content: center;
+    padding: 40px 150px;
 }
 
 .sec1-box1 {
     /* DEBUG */
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 700px;
     background-color: #1E90FF;
+    border: 3px black dashed;
+}
+
+.sec1-box2 {
+    /* DEBUG */
+    height: 400px;
+    width: 400px;
+    background-color: #FFC0CA;
+    border: 3px black dashed;
+}
+
+.sec2-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin-top: 50px; */
+    justify-content: center;
+    padding: 40px 150px;
+    background-color: lightgray;
+}
+
+.sec2-box1 {
+    /* DEBUG */
+    height: 400px;
+    width: 700px;
+    background-color: #1E90FF;
+    border: 3px black dashed;
 }
 
 .sec2-box2 {
     /* DEBUG */
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     background-color: #FFC0CA;
+    border: 3px black dashed;
+}
+
+/* green box */
+.green-container {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 40px 150px;
+}
+
+.greenbox {
+    width: 700px;
+    height: 700px;
+    background-color: #218B21;
+    border: 3px black dashed;
+}
+
+
+
+/* footer */
+.footer-container {
+    display: flex;
+    background-color:  #23272A;
+    justify-content: center;
+    padding: 20px 150px 40px;
+    margin-bottom: white 3px;
+}
+
+.red {
+    width: 300px;
+    height: 700px;
+    background-color: #F08180;
+    border: 3px black dashed;
+}
+
+.acqua {
+    width: 200px;
+    height: 700px;
+    background-color: #20B3AA;
+    border: 3px black dashed;
 }
