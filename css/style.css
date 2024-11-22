@@ -22,6 +22,7 @@
     background-color: #DAA51C;
     justify-content: space-between;
     width: 1000px;
+    border: 2px black dashed;
 }
 
 .nav-link {
@@ -39,7 +40,7 @@
     border: 3px black dashed;
     width: 33%;
     align-self: flex-end;
-    
+    text-align: end;
 }
 
 ul li {
@@ -178,9 +179,18 @@ ul li {
     display: flex;
     justify-content: space-between;   
 }
+
 .logo2 {
     padding: 5px 10px;
     background-color: #FFB4C7;
     width: 15%;
     border: 3px black dashed;
+}
+
+.f-info-bt {
+    padding: 5px 10px;
+    background-color: #FFB4C7;
+    width: 15%;
+    border: 3px black dashed;
+    text-align: end;
 }
