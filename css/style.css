@@ -6,22 +6,33 @@
 
 
 /* nav menu */
-.nav-menu {
-    height: 50px;
+/* .nav-menu-back {
     background-color: #ADD8E7;
-    padding: 20px auto;
+    padding: 30px auto;
+    min-height: 30%;
+} */
+
+
+.nav-flex-container {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    /* height: 40px; */
+    background-color: #ADD8E7;    
 }
 
-.nav-flex {
+.prova-container {
+    padding: 10px;
     display: flex;
-    gap: 20px;
-    /* DEBUG */
-    height: 40px;
-    background-color: #DAA51C;
+    background-color: green;
+    justify-content: space-around;
 }
 
 .nav-link {
     display: flex;
+    gap: 10px;
 }
 
 .logo {
@@ -34,4 +45,45 @@
 
 ul li {
     list-style: none;
+
+}
+
+
+/* header */
+.jumbo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #00018B;
+    padding: 50px 0;
+}
+
+.pink-box {
+    /* DEBUG */
+    height: 500px;
+    width: 900px;
+    background-color: pink;
+    border: 3px solid black;
+}
+
+
+
+/* main */
+.sec1-flex {
+    display: flex;
+    margin-top: 50px;
+}
+
+.sec1-box1 {
+    /* DEBUG */
+    height: 300px;
+    width: 400px;
+    background-color: #1E90FF;
+}
+
+.sec2-box2 {
+    /* DEBUG */
+    height: 300px;
+    width: 200px;
+    background-color: #FFC0CA;
 }
