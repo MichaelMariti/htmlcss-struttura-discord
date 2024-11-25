@@ -58,10 +58,10 @@ ul li {
     padding: 50px 0;
 }
 
-.pink-box {
+.jumbo-box {
     /* DEBUG */
     height: 500px;
-    width: 900px;
+    width: 80%;
     background-color: pink;
     border: 3px black dashed;
 }
@@ -70,7 +70,13 @@ ul li {
 
 /* main */
 
+
+
 /* Three main sections */
+.center {
+    width: 70%;
+    margin: 0 auto;
+}
 .sec-flex {
     display: flex;
     /* margin-top: 50px; */
@@ -79,6 +85,8 @@ ul li {
 }
 
 .sec1-box1 {
+    width: 60%;
+
     /* DEBUG */
     height: 400px;
     width: 700px;
@@ -87,11 +95,15 @@ ul li {
 }
 
 .sec1-box2 {
+    width: 40%;
     /* DEBUG */
     height: 400px;
-    width: 400px;
     background-color: #FFC0CA;
     border: 3px black dashed;
+}
+
+.sec-bg-color {
+    background-color: lightgray;
 }
 
 .sec2-flex {
@@ -106,7 +118,7 @@ ul li {
 .sec2-box1 {
     /* DEBUG */
     height: 400px;
-    width: 700px;
+    width: 60%;
     background-color: #1E90FF;
     border: 3px black dashed;
 }
@@ -114,7 +126,7 @@ ul li {
 .sec2-box2 {
     /* DEBUG */
     height: 400px;
-    width: 400px;
+    width: 40%;
     background-color: #FFC0CA;
     border: 3px black dashed;
 }
@@ -128,7 +140,7 @@ ul li {
 }
 
 .greenbox {
-    width: 700px;
+    width: 65%;
     height: 700px;
     background-color: #218B21;
     border: 3px black dashed;
@@ -137,22 +149,29 @@ ul li {
 
 
 /* footer */
+.center2 {
+    width: 90%;
+    margin: 0 auto;
+}
+.f-bg-color {
+    background-color:  #23272A;
+}
+
 .footer-container {
     display: flex;
-    background-color:  #23272A;
     justify-content: center;
-    padding: 20px 150px 35px;
+    padding: 100px 0 40px;
 }
 
 .red {
-    width: 300px;
+    width: 60%;
     height: 700px;
     background-color: #F08180;
     border: 3px black dashed;
 }
 
 .acqua {
-    width: 200px;
+    width: 30%;
     height: 700px;
     background-color: #20B3AA;
     border: 3px black dashed;
@@ -163,14 +182,13 @@ ul li {
 /* bottom info */
 .f-bottom-con {
     display: flex;
-    background-color: #23272A;
     justify-content: center;
     border-top: 2px solid white;
     padding-top: 25px;
 }
 
 .footer-bg {
-    width: 1000px;
+    width: 100%;
     background-color: #7FFFD4;
     padding: 30px 0;
 }
